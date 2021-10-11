@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class reverseStack {
+public class ReverseStack {
 	
 	public static void revStack(Stack<Integer> input, Stack<Integer> extra) {
 		// base case
