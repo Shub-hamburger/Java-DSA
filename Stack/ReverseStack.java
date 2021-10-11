@@ -3,7 +3,7 @@ import java.util.Stack;
 public class ReverseStack {
 	
 	public static void revStack(Stack<Integer> input, Stack<Integer> extra) {
-		// base case
+	// base case
         if (input.size() == 0 || input.size() == 1) return;
         
         int temp = input.pop();
