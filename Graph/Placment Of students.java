@@ -3,7 +3,8 @@
 	Space complexity: O(N)
 
 	Where N is number of applicants and M is number of jobs available
-
+	
+	Problem Link: https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118511/offering/1381533
 */
 
 public class Solution {
