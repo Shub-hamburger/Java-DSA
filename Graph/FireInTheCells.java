@@ -19,9 +19,9 @@ public class Solution {
  	
 	// check for edge cells
     private static boolean isEdge(int x, int y, int n, int m) {
-		if ((x == 0 && y == 0) || (x == n - 1 && y == m - 1) || 
-		   (x == 0 && y == m - 1) || (x == n - 1 && y == 0))
-			return false;
+	if ((x == 0 && y == 0) || (x == n - 1 && y == m - 1) || 
+	    (x == 0 && y == m - 1) || (x == n - 1 && y == 0))
+		return false;
         return (x == 0 || x == n - 1 || y == 0 || y == m - 1);
     }
 	
