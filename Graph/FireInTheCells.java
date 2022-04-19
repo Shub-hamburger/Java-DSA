@@ -10,7 +10,7 @@
  */
 import java.util.*;
 public class Solution {
-        private static int[][] dir = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private static int[][] dir = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 	
 	// check for inbound
     private static boolean isValid(int x, int y, int n, int m) {
