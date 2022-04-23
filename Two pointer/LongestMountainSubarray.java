@@ -4,6 +4,7 @@
 	
 	Problem Link: https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118509/offering/1376554
 */
+
 public class Solution {
 	public static int longestMountain(int arr[], int n){
 		int longest = 0;
