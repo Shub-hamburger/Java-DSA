@@ -46,7 +46,7 @@ public class Solution {
 						ans.add(list);
 					}
 
-					while (front < back && arr.get(front).equals(x)) {
+					while (front < back && arr.get(front) = x) {
 						front++;
 					}
 
