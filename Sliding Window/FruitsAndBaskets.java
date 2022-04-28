@@ -1,6 +1,8 @@
 /*
 	Time Complexity: O(N)
 	Space Complexity: O(1)
+	
+	Problem Link: https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118509/offering/1376582
 */
 import java.util.*;
 public class Solution {
