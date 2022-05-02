@@ -1,6 +1,10 @@
+// Approach 1
+
 /*
-  Time complexity: O(NlogN)
+  Time complexity: O(MlogN)
   Space complexity: O(1)
+  
+  Where, M is the #rows and N is the #cols
   
   Problem Link: https://leetcode.com/problems/search-a-2d-matrix/
 */
