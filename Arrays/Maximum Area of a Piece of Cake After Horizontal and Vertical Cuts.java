@@ -1,6 +1,12 @@
 /*
   Time Complexity: O(N * log(N) + M * log(M)) where N is the length of horizontalCuts and M is the length of verticalCuts
   Space Complexity: O(1)
+  
+  Problem Link: https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
+  
+  Idea: To find the largest slice of each, we need to first sort the horizontalCuts and verticalCuts, 
+  then iterate through both sets and keep track of the maximum difference found between two consecutive cuts (maxh, maxv). 
+  We also take into account the two end cuts, which are found using 0 and h, w.
 */
 
 class Solution {
