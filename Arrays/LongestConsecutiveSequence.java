@@ -1,6 +1,6 @@
 /*
 Two while loops used but runs a but faster because of not computing 
-again for same element with this {if (!map.get(num))} check
+again for seen element with this {if (!map.get(num))} check
 
 Time complexity: O(N)
 Space complexity: O(N)
