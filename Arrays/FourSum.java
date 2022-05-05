@@ -1,6 +1,6 @@
 /*
-    Time complexity:
-    Space complexity:
+    Time complexity: O(N^3)
+    Space complexity: O(1)
     
     Problem Link: https://leetcode.com/problems/4sum/submissions/
     Idea: We'll sort the array & fix two pointers and then find the remaining two elements using two pointer technique as the array is sorted.
