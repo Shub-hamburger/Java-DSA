@@ -5,6 +5,7 @@ again for same element with this {if (!map.get(num))} check
 Time complexity: O(N)
 Space complexity: O(N)
 
+Problem Link: https://leetcode.com/problems/longest-consecutive-sequence/
 */
 class Solution {
     public int longestConsecutive(int[] nums) {
