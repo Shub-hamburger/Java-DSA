@@ -1,3 +1,8 @@
+/*
+    Time complexity: O(N)
+    Space complexity: O(N)
+*/
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         // map to keep the last index of a character encountered in string 's'
