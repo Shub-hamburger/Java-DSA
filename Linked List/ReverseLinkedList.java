@@ -12,6 +12,8 @@
 /*
     Time Complexity: O(N)
     Space Complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/reverse-linked-list/submissions/
 */
 class Solution {
     public ListNode reverseList(ListNode head) {
