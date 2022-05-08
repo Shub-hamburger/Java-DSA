@@ -1,8 +1,10 @@
 /*
-	Solution 2
-	---------
+    Solution 2
+    ---------
     Time Complexity: O(Min(M, N))
     Space Complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/merge-two-sorted-lists/
 */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -27,8 +29,8 @@ class Solution {
 
 
 /*
-	Solution 1
-	----------
+    Solution 1
+    ----------
     Time Complexity: O(N + M)
     Space Complexity: O(N + M)
 */
