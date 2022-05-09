@@ -15,6 +15,8 @@
     --------------------------------------------
     Time complexity: O(M + N)
     Space complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/intersection-of-two-linked-lists/
 */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
