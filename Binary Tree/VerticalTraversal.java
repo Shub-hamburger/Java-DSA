@@ -1,3 +1,8 @@
+/*
+    Time complexity: O(N)
+    Space complexity: O(N)
+*/
+
 class Solution {
     class Node {
         TreeNode node;
