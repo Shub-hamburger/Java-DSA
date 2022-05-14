@@ -24,7 +24,7 @@ class Solution {
     }
     */
     
-	// without using global variable
+    // without using global variable
     private TreeNode helper(TreeNode root, TreeNode prev) {
         // base case
         if(root == null) 
