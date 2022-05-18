@@ -1,6 +1,8 @@
 /*
     Time complexity: O(N)
     Space complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/maximum-product-subarray/
 */
 class Solution {
     public int maxProduct(int[] nums) {
