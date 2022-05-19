@@ -1,6 +1,8 @@
 /*
     Time complexity: O(N^2)
     Space complexity: O(N^2) + O(N) -> Auxiliary stack space
+    
+    Problem Link: https://leetcode.com/problems/longest-increasing-subsequence/
 */
 class Solution {
     public int helper(int[] nums, int ind, int prev, int[][] dp) {
