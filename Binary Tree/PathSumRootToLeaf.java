@@ -1,6 +1,8 @@
 /*
-    Time complexity: O(N ^ 2) as remove() and cloning also take O(N) time complexity.
+    Time complexity: O(N)
     Space complexity: O(N)
+    
+    Problem Link: https://leetcode.com/problems/path-sum-ii/
 */
 class Solution {
     public void pathSumHelper(TreeNode root, int targetSum, List<Integer> path, List<List<Integer>> pathList) {
