@@ -1,6 +1,8 @@
 /*
     Time complexity: O(N)
     Space complecity: O(N)
+    
+    Problem Link: https://leetcode.com/problems/contains-duplicate-ii/submissions/
 */
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
