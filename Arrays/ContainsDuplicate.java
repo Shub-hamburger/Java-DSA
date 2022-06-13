@@ -1,6 +1,8 @@
 /*
     Time complexity: O(N)
     Space complexity: O(N)
+    
+    Problem Link: https://leetcode.com/problems/contains-duplicate/
 */
 class Solution {
     public boolean containsDuplicate(int[] nums) {
