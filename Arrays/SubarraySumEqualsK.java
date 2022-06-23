@@ -7,6 +7,8 @@
     The value of currsum exceeds the desired sum by currsum – sum. If this value is removed from currsum then the
     desired sum can be obtained. From the map, find the number of subarrays previously found having sum equal to
     currsum-sum. 
+    
+    Problem Link: https://leetcode.com/problems/subarray-sum-equals-k/
 */
 
 class Solution {
