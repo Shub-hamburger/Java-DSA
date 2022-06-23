@@ -2,6 +2,12 @@
     Time complexity: O(N)
     Space complexity: O(N)
     
+    Intuition:
+    ----------
+    1. Every time we meet a 0, we decrease count by 1, and increase count by 1 when we meet 1. It's pretty easy to conclude that we
+    have a contiguous subarray with equal number of 0 and 1 when count equals 0.
+    2. Two points with the same y-axis value indicates the sequence between these two points has equal number of 0 and 1.
+    
     Problem Link: https://leetcode.com/problems/contiguous-array/
 */
 class Solution {
