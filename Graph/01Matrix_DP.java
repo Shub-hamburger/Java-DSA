@@ -13,9 +13,11 @@
     That's why, we need to compute the distance one by one:
         1. Firstly, for a cell, we restrict it to only 2 directions which are left and top. Then we iterate cells from
         top to bottom, and from left to right, we calculate the distance of a cell based on its left and top neighbors.
-        2. Secondly, for a cell, we restrict it only have 2 directions which are right and bottom. Then we iterate cells
+        2. Secondly, for a cell, we restrict it to only have 2 directions which are right and bottom. Then we iterate cells
         from bottom to top, and from right to left, we update the distance of a cell based on its right and bottom
         neighbors.
+        
+    Problem Link: https://leetcode.com/problems/01-matrix/
 */
 
 class Solution { 
