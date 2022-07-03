@@ -11,6 +11,8 @@
     
     If we choose any other intermediate number to be a part of the current wiggle subsequence, the maximum length of that
     wiggle subsequence will always be less than or equal to the one obtained by choosing only the consecutive max and min elements.
+    
+    Problem Link: https://leetcode.com/problems/wiggle-subsequence/
 */
 class Solution {
     public int wiggleMaxLength(int[] nums) {
