@@ -7,6 +7,7 @@
     Initially we given everyone 1 candy and then update the candies based on the ratings once traversing left to right
     and once right to left.
     
+    Problem Link: https://leetcode.com/problems/candy/
 */
 class Solution {
     public int candy(int[] ratings) {
