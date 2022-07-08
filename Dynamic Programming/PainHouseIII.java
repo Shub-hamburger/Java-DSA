@@ -28,6 +28,9 @@
     We try every possible color for unpainted houses and find the cost. After traversing all of the houses, if the number of
     neighborhoods equals target, then we can compare the cost with the minimum cost we have achieved so far and update it
     accordingly.
+    
+    Problem Link: https://leetcode.com/problems/paint-house-iii/
+    ------------
 */
 class Solution {
     private int MAX = (int)1e8;
