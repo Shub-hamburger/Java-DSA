@@ -1,5 +1,5 @@
 /*
-    Tabulation
+    Tabulation - Gives TLE on Leetcode
     ----------
     Time complexity: O(k * n)
     For each index, we are trying out k jumps and storing the results to avoid future recomputations. Overall, the time complexity required is
