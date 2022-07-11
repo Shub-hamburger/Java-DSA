@@ -14,9 +14,7 @@
 class Solution {
     public int maxResult(int[] nums, int k) {
         int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp, Integer.MIN_VALUE);
-        
+        int[] dp = new int[n];        
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
         
         // initalization
