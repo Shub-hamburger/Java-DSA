@@ -1,6 +1,8 @@
 /*
 	Time complexity: O(N)
 	Space complexity: O(N)
+	
+	Time complexity: https://leetcode.com/problems/binary-tree-right-side-view/
 */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
