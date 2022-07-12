@@ -1,3 +1,10 @@
+/*
+    Time complexity: O(2^(k*n)), because if we have K trees stacked on top of each other, the new height of the tree is K * n.
+    Space complexity: O(n)
+    
+    Problem Link: https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+*/
+
 class Solution {
     public boolean backtrack(int[] nums, int idx, int k, int subsetSum, int target, boolean[] vis) {
         // base case
