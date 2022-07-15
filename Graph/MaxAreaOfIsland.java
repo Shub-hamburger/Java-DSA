@@ -8,6 +8,8 @@
     ----------
     Do a DFS for every non visited '1' keeping track of the area. It'll give us the respective areas of all the connected 1's.
     Return the max area among these.
+    
+    Problem Link: https://leetcode.com/problems/max-area-of-island/
 */
 class Solution {
     private int[] xDir = {0, 1, 0, -1};
