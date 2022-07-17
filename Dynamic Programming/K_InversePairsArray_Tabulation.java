@@ -27,6 +27,8 @@
     
     At the end, while returning the result, we need to return dp[n][k] - dp[n][k-1] to obtain the required
     result from the cumulative sums.
+    
+    Problem Link: https://leetcode.com/problems/k-inverse-pairs-array/
 */
 
 class Solution {
