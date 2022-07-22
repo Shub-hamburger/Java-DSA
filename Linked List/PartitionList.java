@@ -13,6 +13,11 @@
     Time complexity: O(N)
     Space complexity: O(1)
     
+    Intuition:
+    ---------
+    We divide the original linked list into two lists, one having nodes < x and other with nodes >= x respectively.
+    We then combine the two lists.
+    
     Problem Link: https://leetcode.com/problems/partition-list/
 */
 class Solution {
