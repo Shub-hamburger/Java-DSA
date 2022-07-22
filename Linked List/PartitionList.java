@@ -12,6 +12,8 @@
 /*
     Time complexity: O(N)
     Space complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/partition-list/
 */
 class Solution {
     public ListNode partition(ListNode head, int x) {
