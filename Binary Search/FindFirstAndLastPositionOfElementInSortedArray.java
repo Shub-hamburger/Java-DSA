@@ -9,6 +9,8 @@
        space as we have duplicates and we can expect an occurrence of target before the current ans too.
     3. For finding the ending position, even if find the target, we keep searching in the right side of the search
        space as we have duplicates and we can expect an occurrence of target after the current ans too.
+       
+    Problem Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 */
 class Solution {
     public int findPosition(int[] nums, int target, boolean isFindingFirst) {
