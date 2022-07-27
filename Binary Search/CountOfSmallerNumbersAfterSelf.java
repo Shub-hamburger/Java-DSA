@@ -1,5 +1,5 @@
 /*
-    Time complexity: O(NlogN)
+    Time complexity: O(N * (logN + N)) ~ O(N^2)
     Space complexity: O(N)
     
     Intuition:
