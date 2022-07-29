@@ -14,7 +14,7 @@
     With these if we're able to ascertain that multiple words[i] are not mapped to the same pattern[i] 
     and vice-versa, then we've a bijection and we add this word to our ans.
 	
-	Problem Link: https://leetcode.com/problems/find-and-replace-pattern/
+    Problem Link: https://leetcode.com/problems/find-and-replace-pattern/
 */
 class Solution {
     public boolean match(String word, String pattern) {
