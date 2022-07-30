@@ -11,6 +11,8 @@
     each word in B.
     Now, we'll just check whether the count of every character in "warrior" is more than the maximum word formed from
     B (here, "arrow").
+    
+    Problem Link: https://leetcode.com/problems/word-subsets/
 */
 
 class Solution {
