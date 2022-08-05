@@ -24,6 +24,8 @@
     cnt[1], cnt[2], cnt[3]:
 
     cnt[4] = cnt[1] + cnt[2] + cnt[3] = 1 + 2 + 4 = 7
+    
+    Problem Link: https://leetcode.com/problems/combination-sum-iv/
 */
 class Solution {
     public int combinationHelper(int[] nums, int idx, int target, int[] dp) {
