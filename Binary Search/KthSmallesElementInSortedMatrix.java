@@ -1,6 +1,8 @@
 /*
     Time complexity: O(n * log(k)), where k is difference between maximum and minimum values in our matrix.
     Space complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 */
 public class Solution {
     public int kthSmallest(int[][] matrix, int k) {
