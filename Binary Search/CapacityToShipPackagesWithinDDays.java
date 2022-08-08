@@ -3,6 +3,8 @@
     Space complexity: O(1)
     
     Here, sum is the sum of all weights, max is the maximum weight and N is the number of weights.
+    
+    Problem Link: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 */
 class Solution {
     public boolean isPossible(int[] weights, int weight, int days) {
