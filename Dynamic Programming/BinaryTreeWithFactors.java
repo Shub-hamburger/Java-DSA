@@ -2,6 +2,15 @@
     Time Complexity: O(n ^ 2)
     Space Complexity: O(N)
     
+    Intuition:
+    ---------
+    1. sort the array and use HashMap to record each Integer, and the number of trees with that Integer as root
+    2. each integer A[i] will always have one tree with only itself
+    3. if A[i] has divisor (a) in the map, and if A[i]/a also in the map
+        then a can be the root of its left subtree, and A[i]/a can be the root of its right subtree;
+        the number of such tree is map.get(a) * map.get(A[i]/a)
+    4. sum over the map
+    
     Problem Link: https://leetcode.com/problems/binary-trees-with-factors/submissions/
 */
 class Solution {
