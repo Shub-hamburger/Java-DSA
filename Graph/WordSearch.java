@@ -7,6 +7,8 @@
     Intuition:
     ----------
     Simple DFS of the grid. We also backtrack so that we cover all the paths that may form the word.
+    
+    Problem Link: https://leetcode.com/problems/word-search/
 */
 class Solution {
     public boolean checkInbounds(char[][] board, int row, int col) {
