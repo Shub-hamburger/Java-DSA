@@ -1,6 +1,8 @@
 /*
     Time complexity: O(rows * cols)
     Space complexity: O(rows * cols)
+    
+    Problem Link: https://leetcode.com/problems/rotting-oranges/
 */
 class Solution {
     int[] xDir = {0, 0, 1, -1};
