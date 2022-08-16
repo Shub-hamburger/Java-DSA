@@ -1,6 +1,8 @@
 /*
     Time complexity: O(n)
     Space complexity: O(1)
+    
+    Problem Link: https://leetcode.com/problems/first-unique-character-in-a-string/
 */
 class Solution {
     public int firstUniqChar(String s) {
