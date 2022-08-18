@@ -3,6 +3,8 @@
     Space complexity: O(m)
     
     where, n in the size of array and m is the number of unqiue numbers in arr
+    
+    Problem Link: https://leetcode.com/problems/reduce-array-size-to-the-half/
 */
 class Solution {
     public int minSetSize(int[] arr) {
