@@ -13,6 +13,8 @@
         (iii) Search maximum end location in tiles that carpet can cover using binary search
         (iv) Now, find total white tiles present between start idx and end idx using prefix sum array
         (v) Update ans with maximum total white tiles
+        
+    Problem Link: https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/
 */
 
 class Solution {
