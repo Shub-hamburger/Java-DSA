@@ -1,6 +1,8 @@
 /*
     Time complexity: O(nlogn)
     Space complexity: O(logn) -> taken by Arrays.sort()
+    
+    Problem Link: https://leetcode.com/problems/bag-of-tokens/
 */
 class Solution {
     public int bagOfTokensScore(int[] tokens, int power) {
