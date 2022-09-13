@@ -1,6 +1,8 @@
 /*
     Time complexity: O(NlogN)
     Space complexity: O(N)
+    
+    Problem Link: https://leetcode.com/problems/maximum-performance-of-a-team/
 */
 class Solution {
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
